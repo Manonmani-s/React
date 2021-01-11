@@ -1,27 +1,45 @@
 import { Component } from "react"
 import "./Article.css"
-import Input from './inputs/input'
+import Input from './Input/Input'
+
+
 
 class Article extends Component {
 
   state = {
-    title: "Here is My Title",
-    dynamicValue:'',
+    title: 'Here is My Title',
+    dynamicValue: '',
+    placeholder:'Please Enter a New Title'
+  }
+  
+  ClickHandler(){
+    console.log(this.state.dynamicValue)
+    if (this.state.dynamicValue === '') {
+      this.setState({
+        title : 'Here is My Title'
+      })
+    } else {
+      this.setState({
+        title : this.state.dynamicValue
+      })
+    }
+    
   }
 
-  assignValue=text=>{
+  assigneValue =text => {
+    // text is called in Input component : this.state.InputValue 
     this.setState({
-      dynamicValue : text
+      dynamicValue : text 
     })
   }
 
   render() {
     return (
       <div className={"Article"}>
-       <Input getValue={this.assignValue} holder={this.state.placeholder}/>
-        <button onClick={()=>{this.clichHandler()}}>Submit</button>
+        <Input getValue={this.assigneValue} holder={this.state.placeholder }/>
+        <button onClick={()=>{this.ClickHandler()}}>Sumbit</button>
         <h2>
-        
+          
           {this.state.title}
         </h2>
         <p>
@@ -38,9 +56,12 @@ class Article extends Component {
           Accusantium et a eveniet quia aspernatur, ipsum obcaecati provident ea
           adipisci odit.
         </p>
+        <div className={"box"} style={{background:this.state.title }}>
+            Color Me
+        </div>
       </div>
     )
   }
 }
 
-export default Article;
+export default Article

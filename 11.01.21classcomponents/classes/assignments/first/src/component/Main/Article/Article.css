@@ -22,3 +22,13 @@ button {
   margin: 0 0.5rem;
   cursor: pointer;
 }
+
+.box{
+  width:150px;
+  height: 150px;
+  margin: 50px  auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 55px;
+  font-weight:bolder ;
+}

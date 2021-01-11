@@ -1,0 +1,27 @@
+.Article{
+    padding: 20px;
+    flex: 1 50%;
+    
+}
+.Article input{
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 5px;
+  margin: 20px auto;
+  padding-left: 30px;
+  background: skyblue;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+button{
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 10px;
+  
+}
+

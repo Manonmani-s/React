@@ -1,0 +1,10 @@
+.footerlay{
+    background: skyblue ;
+    color: #fff;
+    padding: 10px;
+}
+
+.text-center {
+    display: block;
+    text-align: center;
+}

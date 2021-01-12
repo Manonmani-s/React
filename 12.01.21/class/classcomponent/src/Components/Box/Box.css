@@ -1,0 +1,36 @@
+.light{
+    height:300px;
+    width: 300px;
+    background: white;
+    color:black;
+    margin: 0 auto;
+    border: 2px solid grey;
+    text-align: center;
+ 
+}
+
+.dark{
+    height:300px;
+    width: 300px;
+    background: black;
+    color:white;
+    margin: 0 auto;
+    border: 2px solid grey;
+    text-align: center;
+ 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: blue;
+    width: 60vw;
+    height:40vh
+   
+}
+span{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}

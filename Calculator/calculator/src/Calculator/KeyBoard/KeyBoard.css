@@ -1,0 +1,38 @@
+main.card{
+    margin: auto;
+    max-width: 300px;
+    padding-bottom: 40px;
+    box-shadow: 0px 2px 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+    grid-template-areas:
+      "first second"
+      "btn1 btn2"
+      "btn3 btn4";
+}
+
+.first{
+    grid-area: first;
+}
+.second{
+    grid-area: second;
+}
+
+button.btn1 {
+    grid-area: btn1;
+  }
+
+  button.btn2 {
+    grid-area: btn2;
+  }
+
+  button.btn3 {
+    grid-area: btn3;
+  }
+
+  button.btn4 {
+    grid-area: btn4;
+  }

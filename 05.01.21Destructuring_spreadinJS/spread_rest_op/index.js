@@ -51,7 +51,7 @@ const {name:newName, age, city, sayHi,address : {str, haus, country}} = person;
 
 let [g,h,...k] = [1,2,3,4,5,6,7,8,9];
 
-// console.log(k);
+ console.log('k',k);
 
 //-------------REST pattern for Objects
 let Obj = {
@@ -63,7 +63,8 @@ let Obj = {
 };
 
 const {p,l,...y}=Obj;
-// console.log(y);
+console.log(p)
+console.log(y);
 
 //Spread Operator
 

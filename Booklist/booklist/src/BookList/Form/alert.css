@@ -1,0 +1,6 @@
+.alertInfo{
+   visibility: hidden;
+}
+.alertVisible{
+    visibility: visible;
+}

@@ -1,0 +1,10 @@
+.header{
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid grey;
+    background: slateblue;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-top: 1rem;
+}

@@ -1,0 +1,60 @@
+.container {
+
+  width: 500px;
+  margin: 5px 25vw 15vw 25vw ;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: lightblue;
+
+}
+
+.container h3 {
+  color: darkblue;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.container h3 span{
+  color: red;
+  box-sizing: border-box;
+}
+
+.btn{
+  padding: 10px;
+  font-weight: 700;
+  background-color: rgb(230, 122, 122);
+  color: rgb(65, 28, 28);
+  cursor: pointer;
+}
+
+
+.group{
+  width: 500px;
+  margin: 15vw 25vw 5px 25vw ;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  background-color: lightblue;
+  box-sizing: border-box;
+ 
+}
+.group input{
+  display: block;
+  padding: .6rem;
+  font-size: 1.5rem;
+
+}
+.group button{
+  margin: 5px auto;
+  display: block;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}

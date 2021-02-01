@@ -1,0 +1,35 @@
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+#card{
+    margin: auto;
+    /* background-color: rgb(245, 206, 161); */
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card button{
+    width: 100%;
+    background-color: lightblue;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+    
+
+}
